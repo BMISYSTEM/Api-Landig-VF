@@ -2,7 +2,7 @@
 namespace App\Http\Controllers\Noticias\Interface;
 
 interface NoticiasInterface {
-
+// interface
     // create
     function createNoticia($titulo,$imagen,$noticia):array;
     // update

@@ -16,6 +16,7 @@ class NoticiasController extends Controller
     // create
     function createNoticia(Request $request):object
     {   
+        // controlador
         $request = $request->validate(
             [
                 'titulo'=>'required|min:5|max:225',

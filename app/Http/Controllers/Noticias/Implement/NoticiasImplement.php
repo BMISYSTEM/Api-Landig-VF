@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Storage;
 
 class NoticiasImplement implements NoticiasInterface
 {
+    // noticias
 
     function createNoticia($titulo, $imagen, $noticia): array
     {
